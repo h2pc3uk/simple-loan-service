@@ -134,7 +134,21 @@ const LoanForm = () => {
                                 )}
                             </label>
                         </div>
-                        <div className="col-span-6">
+                        <div className="col-span-4">
+                            <label className="block">
+                                <span className="text-gray-700">
+                                    公司:
+                                </span>
+                                <input
+                                    className="mt-1 block w-full h-7 rounded-md border-gray-300"
+                                    type="text"
+                                    {...register("Company", {
+                                        required: false,
+                                    })}
+                                />
+                            </label>
+                        </div>
+                        <div className="col-span-4">
                             <label className="block">
                                 <span className="text-gray-700">
                                     職稱:
@@ -148,7 +162,7 @@ const LoanForm = () => {
                                 />
                             </label>
                         </div>
-                        <div className="col-span-6">
+                        <div className="col-span-4">
                             <label className="block">
                                 <span className="text-gray-700">
                                     年資:
@@ -215,7 +229,7 @@ const LoanForm = () => {
                         <div className="col-span-12">
                             <label className="block">
                                 <span className="text-gray-700">
-                                    借貸目的:
+                                    借貸用途:
                                 </span>
                                 <textarea
                                     className="mt-1 block w-full rounded-md border-gray-300"
