@@ -1,3 +1,3 @@
-# Simple Forms, using react, react-hook-form, axios, tailwind-css
+# Simple Forms
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+using react, react-hook-form, axios, tailwind-css
