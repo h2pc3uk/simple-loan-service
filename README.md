@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+# Simple Forms, using react, react-hook-form, axios, tailwind-css
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
